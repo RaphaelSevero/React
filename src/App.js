@@ -6,16 +6,16 @@ import Pessoa from './components/Pessoa'
 
 function App() {
   
-  const nome = 'Rapha'
+  const nome = 'Raphael'
 
   return (
     <div className="App">
       <HelloWorld />
-      <SayMyName nome= "Raphael" />
+      <SayMyName nome= "Raphael Severo" />
       <SayMyName nome= "João" />
       <SayMyName nome={nome} />
       <Pessoa 
-       nome= "Raphael"
+       nome= "Raphael Severo"
        idade= "32"
        profissao= "Programador"
        foto="https://via.placeholder.com/150"

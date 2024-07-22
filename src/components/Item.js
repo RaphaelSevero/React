@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 
-function Item(marca, ano_lancamento) {
+function Item({marca, ano_lancamento}) {
     
     return (
         <>
@@ -16,7 +16,7 @@ Item.propTypes = {
 }
 
 Item.defaultProps = {
-    marca: 'Faltou a marca',
+    marca: 'Marca inexistente',
     ano_lancamento: 0,
 }
 
